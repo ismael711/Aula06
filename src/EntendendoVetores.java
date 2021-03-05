@@ -9,11 +9,13 @@ public class EntendendoVetores {
 		System.out.println("O tamanho do vetor é " + vetor.length);
 		
 		for(int i=0;i<vetor.length;i++) {
-			System.out.println("No índice " + i + " foi armazenado o valor " + vetor[i]);
+			System.out.println("Digite um valor");
+			vetor[i] = leitor.nextInt();
 		}
 		
-		
-		
+		for(int i=0;i<vetor.length;i++) {
+			System.out.println("No índice " + i + " foi armazenado o valor " + vetor[i]);
+		}
 		
 		leitor.close();
 	}
